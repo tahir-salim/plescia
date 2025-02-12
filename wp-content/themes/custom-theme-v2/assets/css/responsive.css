@@ -1,0 +1,674 @@
+@media (min-width: 1400px) and (max-width: 1599.98px) {}
+
+@media (max-width: 1200px) {
+img{max-width:100%;height:auto}
+.menu-Bar{display:block;top:0px}
+.menuWrap.open{display:flex;left:0px}
+.menuWrap{position:fixed;left:-210%;right:0;top:0;bottom:0;margin:auto;background:#0f4c97;height:100vh;display:flex;align-items:center;justify-content:center;flex-flow:column;transition:all 0.4s ease;z-index:3;width:100vw}
+ul.menu li{display:block}
+ul.menu li a{margin-bottom:10px;padding:0;display:block;text-align:center;margin-bottom:15px;padding-right:0px;margin-right:0px;color:#fff;font-size:15px;text-transform:capitalize}
+.logo img{max-width:50%}
+.container{position:relative}
+header .main-header ul.menu>li{display:block;margin:0px;padding:0}
+header .main-header ul.menu>li a{color:#fff}
+header .main-header ul.menu>li a:before{display:none}
+}
+
+/* ipad pro */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ipad mini */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* mob view */
+@media (max-width: 767px) {}
+
+
+
+@media (max-width: 1440px) {}
+
+@media (max-width: 1200px) {
+    html{
+        overflow-x: hidden;
+    }
+    header{
+        padding: 1rem 0;
+    }
+    .btns{
+        margin: 1.5rem 0;
+    }
+    .dropdown {
+        position: unset;
+        box-shadow: none;
+        width: 100%;
+        background: #f0f8ff80;
+    }
+    
+    .dropdown ul li a {
+        padding: 0;
+        line-height: 1rem;
+        /* padding: 0; */
+        padding: 1rem;
+        font-weight: 500;
+    }
+    .form-head .form-heading{
+        white-space: normal;
+        font-size: 20px;
+    }
+    .form-head{
+        padding: 1rem;
+    }
+    .btn-normal{
+        padding: 10px 8px;
+    }
+    .sub-menu a {
+        color: #333 !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .sub-menu {
+        left: auto !important;
+        padding-top: 16px;
+        top: 24px;
+    }
+    a.header-btn {
+        padding: 15px 20px !important;
+        margin-bottom: 0 !important;
+        display: flex !important;
+        gap: 5px !important;
+        align-items: center;
+    }
+    .menuWrap .menu:first-child{
+        padding-left: 0;
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .menu-Bar {
+        display: block;
+        top: 0px;
+    }
+    .menuWrap.open {
+        display: flex;
+        left: 0px;
+    }
+    .menuWrap {
+        position: fixed;
+        left: -210%;
+        /* right: 0; */
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #ffffff;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-flow: column;
+        transition: all 0.4s ease;
+        z-index: 3;
+        width: 100%;
+        padding: 50px;
+        overflow-y: auto;
+        box-shadow: 0px 4px 6px -1px rgb(0 0 0 / 10%), 0px 2px 4px -1px rgb(0 0 0 / 6%);
+    }
+    ul.menu > li  {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        border-bottom: 1px solid #ddd;
+        padding: 0;
+        flex-direction: column;
+    }
+    ul.menu > li > a {
+        margin-bottom: 10px;
+        padding: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+        padding-right: 0px;
+        margin-right: 0px;
+        color: #fff;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    
+    .container {
+        position: relative;
+    }
+    
+    /* .main-header{
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        padding-top: 18px;
+    }  */
+
+    header .main-header ul.menu>li > a {
+        color: #333;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    header .main-header ul.menu>li > a:before {
+        display: none;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .botton-content {
+        padding-left: 0;
+    }
+    ul#counter li .counter span.text {
+        text-align: center;
+    }
+    .our-gallery .big a {
+        height: 350px;
+    }
+    section.projects-construction-inner h2 {
+        font-size: 30px;
+    }
+    .plescia-projects .slick-slide img {
+        height: 300px;
+    }
+    section.projects-construction-inner h2.projects-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width : 1025px){
+    .btn-wrap .theme-btn {
+        font-size: 16px;
+    }
+    .overlap-slider {
+        /* width: 180%; */
+        width: 100%;
+        position: relative;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+
+/* iPhone 6-8 Plus */
+@media only screen
+and (min-width : 414px)
+and (max-width : 736px)
+and (orientation : portrait) {
+/* Styles */
+}
+@media only screen
+and (min-width : 414px)
+and (max-width : 736px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+
+/* iPhone 6-8  */
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px)
+and (orientation : portrait) {
+/* Styles */
+}
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+
+/* Android (Pixel 2) */
+@media only screen
+and (min-width : 412px)
+and (max-width : 684px)
+and (orientation : portrait) {
+/* Styles */
+}
+@media only screen
+and (min-width : 412px)
+and (max-width : 684px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* Iphone X */
+@media only screen
+and (min-width : 375px)
+and (max-width : 734px)
+and (orientation : portrait) {
+
+}
+@media only screen
+and (min-width : 320px)
+and (max-width : 767px) {
+    .pkg-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header{
+        padding: 1rem 0;
+    }
+    .banner-content {
+        padding: 100px 0 20px;
+    }
+    span.sub-heading {
+        margin-bottom: 1rem;
+        font-size: 16px;
+    }
+    h1.banner-heading {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 1rem;
+    }
+    
+    p.banner-text {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .btn-wrap {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    
+    .btn-wrap a {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-img {
+        display: none;
+    }
+    
+    .sec-heading h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .sec-heading p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .sec-heading .sub-heading {
+        margin-bottom: .5rem;
+    }
+    .copyright {
+        flex-direction: column;
+        gap: 12px;
+    } 
+    
+}
+@media (max-width: 824px){
+    .hero-content h1 span.sub-heading {
+        font-size: 20px;
+        line-height: 30px;
+        display: block;
+    }
+    .hero-content h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .hero-content p.para {
+        margin-top: 0;
+    }
+    .secpad {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    section.about-us .content {
+        padding-left: 0;
+    }
+    img.top-img {
+        margin-bottom: 0;
+    }
+    section.about-us .content .sub-content {
+        padding-left: 0;
+        margin-top: 5px;
+    }
+    .sec3-image1 {
+        height: 300px;
+    }
+    section.projects .content {
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+    section.projects h4 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .marg {
+        margin-top: 0;
+    }
+    section.projects p.para {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    section.construction-solutions .top-sec img.top-sec-img {
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .botton-content {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .construction-solutions-img {
+        width: 100%;
+        height: auto;
+        position: unset;
+    }
+    .top-sec {
+        margin-bottom: 0;
+    }
+    section.construction-solutions h3.construction-solutions {
+        font-size: 24px;
+    }
+    section.construction-solutions .botton-content p.para {
+        padding-top: 15px;
+    }
+    section.counter {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    ul#counter {
+        display: block;
+    }
+    .count-card {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    ul#counter li .counter span.text {
+        text-align: center;
+    }
+    span.count {
+        font-size: 32px;
+    }
+    .counter span.text-white {
+        font-size: 32px;
+    }
+    .our-gallery .big a {
+        height: 300px;
+    }
+    .mx-3 {
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+    }
+    section.subscribe-newsletter .content h4 {
+        font-size: 24px;
+    }
+    .subscribe-newsletter .content p {
+        padding: 5px 0 15px;
+    }
+    .subscription .btn-subscription {
+        width: 120px;
+    }
+    .subscription #subscription-email {
+        padding: 16px;
+    }
+    .ps-5 {
+        padding-left: 15px!important;
+    }
+    ul.quick-links {
+        margin-top: 10px;
+    }
+    footer h6 {
+        padding: 20px 0 0;
+    }
+    .footer-content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .innerbanner-content h1 {
+        font-size: 30px;
+    }
+    .innerbanner {
+        height: auto;
+        padding: 50px 0;
+    }
+    .about-us-inner {
+        padding-top: 30px;
+    }
+    .about-us-inner img.abt-img {
+        height: auto;
+    }
+    .about-us-inner .sub-content {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    section.plescia-construction-inner {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .plescia-construction-inner .content h2 {
+        font-size: 24px;
+    }
+    .plescia-construction-inner .content p.para {
+        padding-top: 15px;
+    }
+    .w-100 {
+        margin-top: 15px;
+    }
+    section.projects-construction-inner h2 {
+        font-size: 24px;
+    }
+    section.projects-construction-inner p.para1 {
+        margin-top: 15px;
+    }
+    .ps-0 {
+        padding-left: 30px!important;
+    }
+    section.projects-construction-inner ul.plescia-projects {
+        padding-top: 30px;
+    }
+    .plescia-projects {
+        margin-bottom: 35px;
+    }
+    section.projects-construction-inner {
+        padding: 30px 15px 0;
+    }
+    .pe-0 {
+        padding-right: 15px!important;
+    }
+    .plescia-projects .slick-slide img {
+        height: 300px;
+    }
+    section.projects-construction-inner h2.projects-title {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .plescia-projects .slick-list.draggable {
+        padding-left: 0;
+    }
+    .plescia-projects a.arrow-btn-1.right.slick-arrow {
+        left: 50%;
+        bottom: -12%;
+    }
+    .plescia-projects a.arrow-btn-1.left.slick-arrow {
+        bottom: -12%;
+    }
+    section.services {
+        padding-top: 50px !important;
+    }
+    .services-content h3 {
+        font-size: 18px;
+        margin-top: 15px;
+        line-height: 1.4;
+    }
+    section.get-in-touch h3 {
+        font-size: 24px;
+    }
+    section.get-in-touch {
+        padding: 30px 0;
+    }
+    section.get-in-touch form {
+        margin-top: 15px;
+    }
+    .get-in-touch .form-control {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width : 768px){
+    header {
+        padding: 0rem 0;
+    }
+
+    .menuWrap {
+        position: fixed; 
+        margin: 0px;
+    }
+
+    .menuWrap.open {
+        display: block;
+        left: 0px;
+        top: 0px;
+    }
+    ul.menu {
+        margin-top: 110px;
+    } 
+    header .main-header ul.menu>li:last-child{
+        border: 0;
+    } 
+
+    ul.menu a.btn.btn-primary {
+        margin-top: 20px;
+    }
+
+    .top-bar .contact-info a { 
+        font-size: 13px;
+        margin: 0px !important;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    h1 br{
+        display: none;
+    }
+
+    .mainBanner {
+        height: 500px;
+    }
+
+    .banner-content {
+        padding-left: 10px;
+    }
+
+    .hero-section p.para {
+        font-size: 18px; 
+    }
+
+    .hero-section p.para br {
+        display: none;
+    }
+
+    section {
+        padding-bottom: 3rem;
+    }
+    section {
+        padding-top: 2rem;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .we-are {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    p { 
+        font-size: 14px;
+        line-height: 1.4;
+    } 
+    .who-we-are-card {
+        padding: 16px;
+        margin: 25px 0px;
+    }
+    
+    .btn {
+        padding: 14px 24px; 
+        font-size: 12px;
+    }
+
+    section.who-we-sec img {
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    .why-trust-card {
+        margin: 10px 10px 30px;
+    }
+
+    .why-trust-card h4.title {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    section.who-we-sec img {
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    h6.heading-top {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: 0.84px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    h2 span {
+        display: inline;
+    }
+
+    .passionate-about-card {
+        padding: 2px 0px 0px 15px;
+        margin: 20px 0px;
+    }
+    
+    p.amazing-experience {
+        font-size: 14px;
+    }
+}       
